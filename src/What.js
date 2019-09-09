@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListItem, List, Heading } from 'spectacle';
+import { ListItem, List, Heading, Notes } from 'spectacle';
 
 const What = () => {
   return (
@@ -13,6 +13,14 @@ const What = () => {
         <ListItem>schema, typer</ListItem>
         <ListItem>query, mutation, sub</ListItem>
       </List>
+
+      <Notes>
+        <List>
+          <ListItem>Request only the data you need</ListItem>
+          <ListItem>Type safe api</ListItem>
+          <ListItem>Self documenting</ListItem>
+        </List>
+      </Notes>
     </>
   );
 };

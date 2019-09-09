@@ -4,16 +4,15 @@ import React from 'react';
 import { Deck, Slide } from 'spectacle';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
+import Advanced from './Advanced';
 import DefineSchema from './DefineSchema';
+import DoQuery from './DoQuery';
 import How from './How';
 import Landing from './Landing';
+import Resources from './Resources';
+import Snacks from './Snacks';
 import What from './What';
 import Why from './Why';
-import DoQuery from './DoQuery';
-import Snacks from './Snacks';
-import Advanced from './Advanced';
-import Resources from './Resources';
-import DefaultSlide from './DefaultSlide';
 
 // Require CSS
 require('normalize.css');
@@ -39,37 +38,37 @@ export default class Presentation extends React.Component {
           <Landing />
         </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <Why />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <What />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <How />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <DefineSchema />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <DoQuery />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <Snacks />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <Advanced />
-        </DefaultSlide>
+        </Slide>
 
-        <DefaultSlide>
+        <Slide bgColor="secondary" textColor="primary">
           <Resources />
-        </DefaultSlide>
+        </Slide>
       </Deck>
     );
   }
