@@ -1,16 +1,13 @@
+import { Playground, store } from 'graphql-playground-react';
 import React from 'react';
-import { Heading, List, ListItem } from 'spectacle';
+import { Provider } from 'react-redux';
 
 const DoQuery = () => {
   return (
     <>
-      <Heading size={6} textColor="primary" caps>
-        doquery
-      </Heading>
-
-      <List>
-        <ListItem>live example - prisma + draqula + graphiql inline?</ListItem>
-      </List>
+      <Provider store={store}>
+        <Playground endpointUrl="https://api.graph.cool/simple/v1/swapi" />
+      </Provider>
     </>
   );
 };

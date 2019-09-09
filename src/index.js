@@ -6,6 +6,8 @@ import Redbox from 'redbox-react';
 
 import Presentation from './presentation';
 
+import './global.css';
+
 const CustomErrorReporter = ({ error }) => <Redbox error={error} />;
 
 CustomErrorReporter.propTypes = {
@@ -16,7 +18,7 @@ ReactDOM.render(
   <AppContainer errorReporter={CustomErrorReporter}>
     <Presentation />
   </AppContainer>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 if (module.hot) {
@@ -26,7 +28,7 @@ if (module.hot) {
       <AppContainer errorReporter={CustomErrorReporter}>
         <NextPresentation />
       </AppContainer>,
-      document.getElementById('root')
+      document.getElementById('root'),
     );
   });
 }
