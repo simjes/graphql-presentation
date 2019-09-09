@@ -9,16 +9,15 @@ const What = () => {
       </Heading>
 
       <List>
-        <ListItem>en spec</ListItem>
-        <ListItem>schema, typer</ListItem>
         <ListItem>query, mutation, sub</ListItem>
       </List>
 
       <Notes>
         <List>
-          <ListItem>Request only the data you need</ListItem>
+          <ListItem>Released as a specification</ListItem>
           <ListItem>Type safe api</ListItem>
           <ListItem>Self documenting</ListItem>
+          <ListItem>Three ways to talk to the API</ListItem>
         </List>
       </Notes>
     </>

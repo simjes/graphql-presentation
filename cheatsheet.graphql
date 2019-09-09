@@ -1,0 +1,23 @@
+query allFilms {
+  allFilms {
+    title
+    characters {
+      name
+      eyeColor
+    }
+  }
+}
+
+query luke {
+  Person(name: "Luke Skywalker") {
+    id
+    name
+    eyeColor
+    homeworld {
+      name
+      residents {
+        name
+      }
+    }
+  }
+}

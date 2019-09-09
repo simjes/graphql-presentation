@@ -17,6 +17,7 @@ const Why = () => {
       <Notes>
         <List>
           <ListItem>Facebook mobile problems</ListItem>
+          <ListItem>Common problem in the industry - Airbnb</ListItem>
           <ListItem>
             Vending machine - https://youtu.be/783ccP__No8?t=658
           </ListItem>
