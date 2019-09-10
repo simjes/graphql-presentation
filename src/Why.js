@@ -14,7 +14,7 @@ import {
 const Why = () => {
   return (
     <>
-      <Heading size={3} textColor="primary">
+      <Heading size={6} textColor="primary">
         Why
       </Heading>
 

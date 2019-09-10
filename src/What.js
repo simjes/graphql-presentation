@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListItem, List, Heading, Notes } from 'spectacle';
+import { ListItem, List, Heading, Notes, Appear } from 'spectacle';
 
 const What = () => {
   return (
@@ -9,14 +9,23 @@ const What = () => {
       </Heading>
 
       <List>
-        <ListItem>query, mutation, sub</ListItem>
+        <Appear>
+          <ListItem>Self documenting API</ListItem>
+        </Appear>
+
+        <Appear>
+          <ListItem>Type system</ListItem>
+        </Appear>
+
+        <Appear>
+          <ListItem>Query, Mutation, Subscription</ListItem>
+        </Appear>
       </List>
 
       <Notes>
         <List>
-          <ListItem>Released as a specification</ListItem>
+          <ListItem>Self documenting - playground</ListItem>
           <ListItem>Type safe api</ListItem>
-          <ListItem>Self documenting</ListItem>
           <ListItem>Three ways to talk to the API</ListItem>
         </List>
       </Notes>
