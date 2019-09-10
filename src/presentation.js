@@ -5,7 +5,7 @@ import { Deck, Slide, SlideSet } from 'spectacle';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 import Advanced from './Advanced';
-import DefineSchema from './DefineSchema';
+import Schema from './Schema';
 import DoQuery from './DoQuery';
 import How from './How';
 import Landing from './Landing';
@@ -21,7 +21,7 @@ require('normalize.css');
 const theme = createTheme(
   {
     primary: 'white',
-    secondary: '#1F2022',
+    secondary: '#000025',
     tertiary: '#03A9FC',
     quaternary: '#CECECE',
   },
@@ -53,7 +53,7 @@ export default class Presentation extends React.Component {
 
         <SlideSet>
           <Slide bgColor="secondary" textColor="primary">
-            <DefineSchema />
+            <Schema />
           </Slide>
 
           <Slide bgColor="secondary" textColor="primary">

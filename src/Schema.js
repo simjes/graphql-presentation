@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading, List, ListItem, Notes } from 'spectacle';
 
-const DefineSchema = () => {
+const Schema = () => {
   return (
     <>
       <Heading size={2} textColor="primary">
@@ -22,4 +22,4 @@ const DefineSchema = () => {
   );
 };
 
-export default DefineSchema;
+export default Schema;

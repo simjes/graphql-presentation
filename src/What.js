@@ -5,7 +5,7 @@ const What = () => {
   return (
     <>
       <Heading size={6} textColor="primary">
-        what
+        What
       </Heading>
 
       <List>

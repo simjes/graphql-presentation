@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, Heading } from 'spectacle';
+import { List, ListItem, Heading, Notes } from 'spectacle';
 
 const How = () => {
   return (
@@ -15,6 +15,12 @@ const How = () => {
         <ListItem>stegvis intro</ListItem>
         <ListItem>eget type sys</ListItem>
       </List>
+
+      <Notes>
+        <List>
+          <ListItem>da</ListItem>
+        </List>
+      </Notes>
     </>
   );
 };

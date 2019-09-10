@@ -1,18 +1,34 @@
 import React from 'react';
-import { Heading, List, ListItem, Notes } from 'spectacle';
+import {
+  Heading,
+  List,
+  ListItem,
+  Notes,
+  Appear,
+  BlockQuote,
+  Quote,
+  Cite,
+  Link,
+} from 'spectacle';
 
 const Why = () => {
   return (
     <>
-      <Heading size={6} textColor="primary">
-        why
+      <Heading size={3} textColor="primary">
+        Why
       </Heading>
 
-      <List>
-        <ListItem>spør kun om dataen du trenger, alt i en request</ListItem>
-        <ListItem>type safe api</ListItem>
-        <ListItem>self documenting</ListItem>
-      </List>
+      <Appear>
+        <BlockQuote>
+          <Quote textSize="48" textColor="#0297fd">
+            Instead of contorting our object graph to a relational system, what
+            if we make it an object graph all the way from back to front
+          </Quote>
+          <Link href="https://youtu.be/783ccP__No8?t=452" target="_blank">
+            <Cite textColor="#fd029c">Nick Schrock, GraphQL co-creator</Cite>
+          </Link>
+        </BlockQuote>
+      </Appear>
 
       <Notes>
         <List>
