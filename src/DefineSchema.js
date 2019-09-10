@@ -1,29 +1,21 @@
 import React from 'react';
-import { Heading, Text, ListItem, List, Notes } from 'spectacle';
+import { Heading, List, ListItem, Notes } from 'spectacle';
 
 const DefineSchema = () => {
   return (
     <>
-      <Heading size={2} textColor="primary" caps>
-        Building blocks
-      </Heading>
-
-      <Text margin="10px 0 0" textColor="primary" size={1} bold>
+      <Heading size={2} textColor="primary">
         Schema
-      </Text>
-
-      {/* <List>
-        <ListItem>definere skjema</ListItem>
-        <ListItem>type, query, mutation, subs, fragments?</ListItem>
-        <ListItem>Generert skjema fra prisma</ListItem>
-      </List> */}
+      </Heading>
 
       <Notes>
         <List>
+          <ListItem>Schema</ListItem>
           <ListItem>type</ListItem>
           <ListItem>input</ListItem>
           <ListItem>fragment</ListItem>
           <ListItem>interface</ListItem>
+          <ListItem>union</ListItem>
         </List>
       </Notes>
     </>

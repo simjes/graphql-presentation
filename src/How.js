@@ -4,7 +4,7 @@ import { List, ListItem, Heading } from 'spectacle';
 const How = () => {
   return (
     <>
-      <Heading size={6} textColor="primary" caps>
+      <Heading size={6} textColor="primary">
         how
       </Heading>
 

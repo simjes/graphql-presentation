@@ -4,7 +4,7 @@ import { Heading, List, ListItem, Notes } from 'spectacle';
 const Why = () => {
   return (
     <>
-      <Heading size={6} textColor="primary" caps>
+      <Heading size={6} textColor="primary">
         why
       </Heading>
 

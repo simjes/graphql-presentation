@@ -1,7 +1,7 @@
 // Import React
 import React from 'react';
 // Import Spectacle Core tags
-import { Deck, Slide } from 'spectacle';
+import { Deck, Slide, SlideSet } from 'spectacle';
 // Import theme
 import createTheme from 'spectacle/lib/themes/default';
 import Advanced from './Advanced';
@@ -13,6 +13,7 @@ import Resources from './Resources';
 import Snacks from './Snacks';
 import What from './What';
 import Why from './Why';
+import SchemaExample from './SchemaExample';
 
 // Require CSS
 require('normalize.css');
@@ -50,9 +51,15 @@ export default class Presentation extends React.Component {
           <How />
         </Slide>
 
-        <Slide bgColor="secondary" textColor="primary">
-          <DefineSchema />
-        </Slide>
+        <SlideSet>
+          <Slide bgColor="secondary" textColor="primary">
+            <DefineSchema />
+          </Slide>
+
+          <Slide bgColor="secondary" textColor="primary">
+            <SchemaExample />
+          </Slide>
+        </SlideSet>
 
         <Slide bgColor="secondary" textColor="primary">
           <DoQuery />
