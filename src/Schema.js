@@ -1,21 +1,24 @@
 import React from 'react';
-import { Heading, List, ListItem, Notes } from 'spectacle';
+import { Heading, Image, List, ListItem, Notes } from 'spectacle';
+import SchemaExample from './assets/schema.png';
 
 const Schema = () => {
   return (
     <>
-      <Heading size={2} textColor="primary">
+      <Heading size={6} textColor="primary">
         Schema
       </Heading>
 
+      <Image src={SchemaExample} height="700" />
+
       <Notes>
         <List>
-          <ListItem>Schema</ListItem>
-          <ListItem>type</ListItem>
-          <ListItem>input</ListItem>
-          <ListItem>fragment</ListItem>
-          <ListItem>interface</ListItem>
-          <ListItem>union</ListItem>
+          <ListItem>Query</ListItem>
+          <ListItem>User</ListItem>
+          <ListItem>Required/Optional</ListItem>
+          <ListItem>List + Nullable + Non empty</ListItem>
+          <ListItem>Return</ListItem>
+          <ListItem>Interface - fragments - others</ListItem>
         </List>
       </Notes>
     </>

@@ -1,22 +1,28 @@
 import React from 'react';
-import { List, ListItem, Heading } from 'spectacle';
+import { List, ListItem, Heading, Notes } from 'spectacle';
 
 const Snacks = () => {
   return (
     <>
       <Heading size={6} textColor="primary">
-        snacks
+        Snacks for JavaScript devs
       </Heading>
 
       <List>
-        <ListItem>prisma, hasura</ListItem>
-        <ListItem>generate typings</ListItem>
-        <ListItem>playground, graphiql</ListItem>
-        <ListItem>
-          Apollo, slipper da også redux - hva gjør apollo
-        </ListItem>{' '}
-        {/* egen slide? gjør at graphql er lettere å sette opp. kan generere typings - alternativer: relay, draqula */}
+        <ListItem>Apollo</ListItem>
+        <ListItem>Prisma, Hasura</ListItem>
+        <ListItem>Generate typings</ListItem>
+        <ListItem>Playground, Graphiql</ListItem>
       </List>
+
+      <Notes>
+        <List>
+          <ListItem>Apollo made GraphQL easy - alternative Relay</ListItem>
+          <ListItem>Services to define model and generate schema</ListItem>
+          <ListItem>Can generate typings from schema</ListItem>
+          <ListItem>Test and view documentation of API</ListItem>
+        </List>
+      </Notes>
     </>
   );
 };
