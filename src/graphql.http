@@ -1,0 +1,16 @@
+POST https://api.graph.cool/simple/v1/swapi
+Content-Type: application/json
+
+{
+  "operationName": "getAllFilms",
+  "query": "query getAllFilms {
+              allFilms {
+                title
+                characters {
+                  name
+                  eyeColor
+                }
+              }
+            }",
+  "variables": {}
+}

@@ -5,7 +5,7 @@ const Advanced = () => {
   return (
     <>
       <Heading size={6} textColor="primary">
-        Advanced
+        Advanced TODO rename
       </Heading>
 
       <List>

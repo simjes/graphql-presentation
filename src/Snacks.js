@@ -5,7 +5,10 @@ const Snacks = () => {
   return (
     <>
       <Heading size={6} textColor="primary">
-        Snacks for JavaScript devs
+        Snacks for devs{' '}
+        <span role="img" aria-label="Ice cream emoji">
+          🍧
+        </span>
       </Heading>
 
       <List>

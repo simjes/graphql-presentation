@@ -14,7 +14,7 @@ const What = () => {
         </Appear>
 
         <Appear>
-          <ListItem>Type system</ListItem>
+          <ListItem>Types</ListItem>
         </Appear>
 
         <Appear>

@@ -1,19 +1,22 @@
 import React from 'react';
-import { List, ListItem, Heading, Notes } from 'spectacle';
+import { Heading, Image, List, ListItem, Notes } from 'spectacle';
+import Http from './assets/http.png';
 
 const How = () => {
   return (
     <>
-      <Heading size={3} textColor="primary">
-        How TODO
+      <Heading size={6} textColor="primary">
+        How
       </Heading>
+
+      <Image src={Http} height="500" />
 
       <Notes>
         <List>
           <ListItem>Not HTTP status codes</ListItem>
           <ListItem>POST request - query in body</ListItem>
           <ListItem>Single endpoint - /graphql</ListItem>
-          <ListItem>Gradually introduction</ListItem>
+          <ListItem>Gradual introduction</ListItem>
         </List>
       </Notes>
     </>

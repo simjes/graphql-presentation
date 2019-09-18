@@ -15,6 +15,7 @@ const Resources = () => {
         <ListItem>gode example links, med one click setup i heroku</ListItem>
       </List>
       {/* https://graphql.github.io/graphql-spec/June2018/ */}
+      {/* https://graphql.org/code/ */}
     </>
   );
 };

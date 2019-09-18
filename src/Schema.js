@@ -9,7 +9,7 @@ const Schema = () => {
         Schema
       </Heading>
 
-      <Image src={SchemaExample} height="700" />
+      <Image src={SchemaExample} height="500" />
 
       <Notes>
         <List>
