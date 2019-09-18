@@ -1,21 +1,32 @@
 import React from 'react';
-import { List, ListItem, Heading, Notes } from 'spectacle';
+import { Appear, Heading, List, ListItem, Notes } from 'spectacle';
 
 const Snacks = () => {
   return (
     <>
       <Heading size={6} textColor="primary">
-        Snacks for devs{' '}
+        Snacks for Devs
         <span role="img" aria-label="Ice cream emoji">
           🍧
         </span>
       </Heading>
 
       <List>
-        <ListItem>Apollo</ListItem>
-        <ListItem>Prisma, Hasura</ListItem>
-        <ListItem>Generate typings</ListItem>
-        <ListItem>Playground, Graphiql</ListItem>
+        <Appear>
+          <ListItem>Apollo</ListItem>
+        </Appear>
+
+        <Appear>
+          <ListItem>Prisma, Hasura</ListItem>
+        </Appear>
+
+        <Appear>
+          <ListItem>Generate typings</ListItem>
+        </Appear>
+
+        <Appear>
+          <ListItem>Playground, GraphiQL</ListItem>
+        </Appear>
       </List>
 
       <Notes>

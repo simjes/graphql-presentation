@@ -16,6 +16,7 @@ const Resources = () => {
       </List>
       {/* https://graphql.github.io/graphql-spec/June2018/ */}
       {/* https://graphql.org/code/ */}
+      {/* https://syntax.fm/show/027/graphql-here-is-what-you-need-to-know */}
     </>
   );
 };

@@ -1,14 +1,14 @@
 import React from 'react';
 import {
+  Appear,
+  BlockQuote,
+  Cite,
   Heading,
+  Link,
   List,
   ListItem,
   Notes,
-  Appear,
-  BlockQuote,
   Quote,
-  Cite,
-  Link,
 } from 'spectacle';
 
 const Why = () => {

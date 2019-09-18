@@ -1,10 +1,8 @@
-// Import React
 import React from 'react';
-// Import Spectacle Core tags
-import { Deck, Slide } from 'spectacle';
-// Import theme
+import { Deck, Image, Slide } from 'spectacle';
 import createTheme from 'spectacle/lib/themes/default';
-import Advanced from './Advanced';
+import Security from './Security';
+import BeforeAfter from './assets/before-after.png';
 import DoQuery from './DoQuery';
 import How from './How';
 import Landing from './Landing';
@@ -47,6 +45,10 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide bgColor="secondary" textColor="primary">
+          <Image className="before-after" src={BeforeAfter} height="500" />
+        </Slide>
+
+        <Slide bgColor="secondary" textColor="primary">
           <How />
         </Slide>
 
@@ -59,7 +61,7 @@ export default class Presentation extends React.Component {
         </Slide>
 
         <Slide bgColor="secondary" textColor="primary">
-          <Advanced />
+          <Security />
         </Slide>
 
         <Slide bgColor="secondary" textColor="primary">

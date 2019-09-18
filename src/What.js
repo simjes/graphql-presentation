@@ -1,5 +1,5 @@
 import React from 'react';
-import { ListItem, List, Heading, Notes, Appear } from 'spectacle';
+import { Appear, Heading, List, ListItem, Notes } from 'spectacle';
 
 const What = () => {
   return (
@@ -28,6 +28,7 @@ const What = () => {
 
       <Notes>
         <List>
+          <ListItem>Is a spesification</ListItem>
           <ListItem>Self documenting - playground</ListItem>
           <ListItem>Type safe - validates correct use</ListItem>
           <ListItem>Three ways to talk to the API</ListItem>

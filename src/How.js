@@ -17,6 +17,7 @@ const How = () => {
           <ListItem>POST request - query in body</ListItem>
           <ListItem>Single endpoint - /graphql</ListItem>
           <ListItem>Gradual introduction</ListItem>
+          <ListItem>Build on top of existing app code</ListItem>
         </List>
       </Notes>
     </>

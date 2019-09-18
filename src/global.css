@@ -2,3 +2,10 @@
   text-align: left;
   height: 700px;
 }
+
+.before-after {
+  padding: 20px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.55) 0px 20px 68px;
+}
