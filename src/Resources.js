@@ -1,22 +1,46 @@
 import React from 'react';
-import { ListItem, List, Heading } from 'spectacle';
+import { Heading, Text } from 'spectacle';
+import { CustomLink } from './common';
 
 const Resources = () => {
   return (
     <>
       <Heading size={6} textColor="primary">
-        resources
+        Resources
       </Heading>
 
-      <List>
-        <ListItem>spec link</ListItem>
-        <ListItem>link til documentary</ListItem>
-        <ListItem>gode intro links</ListItem>
-        <ListItem>gode example links, med one click setup i heroku</ListItem>
-      </List>
-      {/* https://graphql.github.io/graphql-spec/June2018/ */}
-      {/* https://graphql.org/code/ */}
-      {/* https://syntax.fm/show/027/graphql-here-is-what-you-need-to-know */}
+      <Text>
+        <CustomLink href="https://graphql.org/code/" target="_blank">
+          Language support
+        </CustomLink>
+      </Text>
+
+      <Text>
+        <CustomLink
+          href="https://www.youtube.com/watch?v=783ccP__No8"
+          target="_blank"
+        >
+          Documentary
+        </CustomLink>
+      </Text>
+
+      <Text>
+        <CustomLink
+          href="https://github.com/APIs-guru/graphql-apis"
+          target="_blank"
+        >
+          Public dev apis
+        </CustomLink>
+      </Text>
+
+      <Text>
+        <CustomLink
+          href="https://graphql.github.io/graphql-spec/June2018/"
+          target="_blank"
+        >
+          Specification
+        </CustomLink>
+      </Text>
     </>
   );
 };
