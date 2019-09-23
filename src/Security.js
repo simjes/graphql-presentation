@@ -13,8 +13,7 @@ const Security = () => {
           <ListItem>DOS attack - complexity, drill down</ListItem>
           <ListItem>Directives and middleware</ListItem>
           <ListItem>Timeout, limit complexity and depth, throttle</ListItem>
-          <ListItem>Authorization</ListItem>
-          <ListItem>Connect backend - frontend use same api</ListItem>
+          <ListItem>Authentication/Authorization</ListItem>
         </List>
       </Notes>
 

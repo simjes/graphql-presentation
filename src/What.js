@@ -28,7 +28,7 @@ const What = () => {
 
       <Notes>
         <List>
-          <ListItem>Is a spesification</ListItem>
+          <ListItem>Is a specification</ListItem>
           <ListItem>Self documenting - playground</ListItem>
           <ListItem>Type safe - validates correct use</ListItem>
           <ListItem>Three ways to talk to the API</ListItem>
