@@ -10,6 +10,16 @@ const Resources = () => {
       </Heading>
 
       <Text>
+        <CustomLink
+          href="https://graphql.org/"
+          target="_blank"
+        >
+          Graphql.org
+        </CustomLink>
+      </Text>
+
+
+      <Text>
         <CustomLink href="https://graphql.org/code/" target="_blank">
           Language support
         </CustomLink>

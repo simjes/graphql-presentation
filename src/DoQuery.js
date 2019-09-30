@@ -15,7 +15,6 @@ const DoQuery = () => {
           <ListItem>Show query example</ListItem>
           <ListItem>Explain input, output, filters</ListItem>
           <ListItem>Show error example</ListItem>
-          <ListItem>Show network tab</ListItem>
         </List>
       </Notes>
     </>
